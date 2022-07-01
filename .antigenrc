@@ -1,0 +1,34 @@
+# Load oh-my-zsh library
+antigen use oh-my-zsh
+
+# Load bundles from the default repo (oh-my-zsh)
+antigen bundle git
+antigen bundle command-not-found
+antigen bundle docker
+antigen bundle archlinux
+antigen bundle kubectl
+antigen bundle web-search
+
+# Load bundles from external repos
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+# antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zdharma-continuum/fast-syntax-highlighting
+antigen bundle sunlei/zsh-ssh
+antigen bundle junegunn/fzf
+antigen bundle gradle/gradle-completion
+antigen bundle wting/autojump
+antigen bundle aubreypwd/zsh-plugin-reload
+antigen bundle valentinocossar/vscode
+antigen bundle popstas/zsh-command-time
+antigen bundle Aloxaf/fzf-tab
+antigen bundle xPMo/zsh-ls-colors
+antigen bundle fcambus/ansiweather
+antigen bundle MichaelAquilina/zsh-auto-notify
+antigen bundle MichaelAquilina/zsh-autoswitch-virtualenv
+
+# Select theme
+antigen theme romkatv/powerlevel10k
+
+# Tell Antigen that you're done
+antigen apply
