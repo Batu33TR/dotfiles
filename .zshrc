@@ -1,4 +1,4 @@
-export PATH=$PATH:/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin:${HOME}/bin:${HOME}/flutter/bin
+export PATH=$PATH:/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin:${HOME}/bin:${HOME}/flutter/bin:/usr/local/go/bin
 
 # Load .zprofile
 source ~/.zprofile
